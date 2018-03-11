@@ -26,7 +26,7 @@ Example 1:
         print("this print never work!")
 
 
-Example 1:
+Example 2:
 
 .. code-block:: python
 
@@ -37,7 +37,7 @@ Example 1:
             pass
 
 
-Example 2:
+Example 3:
 
 .. code-block:: python
 
