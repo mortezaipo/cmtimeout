@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="iotimeout",
-    version="1.0.0",
+    version="1.0.1",
     description="IO timeout handler library.",
     long_description=open("README.rst").read(),
     author="Morteza Nourelahi Alamdari",
