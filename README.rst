@@ -1,6 +1,6 @@
 IOTimeOut
 =========
-IO timeout handler library for Python.
+Python IO timeout handler library.
 
 
 Install
