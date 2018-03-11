@@ -51,9 +51,9 @@ Example 3:
         print("opening file failed.")
 
 
-**NOTE:** first argument (second) must be ``int``.
+**NOTE:** first argument (``second``) must be ``int``.
 
-**NOTE:** second argument enables rasing exception which timeout exceeded.
+**NOTE:** second argument enables or disables rasing exception when timeout exceeded.
 
 
 Contribute
