@@ -52,6 +52,7 @@ Example 3:
 
 
 **NOTE:** first argument (second) must be ``int``.
+
 **NOTE:** second argument enables rasing exception which timeout exceeded.
 
 
