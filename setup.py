@@ -2,9 +2,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="iotimeout",
+    name="cmtimeout",
     version="1.0.1",
-    description="IO timeout handler library.",
+    description="Python ContextManager timeout handler library.",
     long_description=open("README.rst").read(),
     author="Morteza Nourelahi Alamdari",
     author_email="me@mortezana.com",

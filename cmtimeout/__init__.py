@@ -1,18 +1,18 @@
-"""IO timeout handler library."""
+"""ContextManager timeout handler library."""
 import signal
 
 
-class IOTimeOutException(Exception):
-    """IO timeout exception handler class."""
+class CMTimeOutException(Exception):
+    """ContextManager timeout exception handler class."""
 
     pass
 
 
-class IOTimeOut:
-    """IO timeout handler class."""
+class CMTimeOut:
+    """ContextManager timeout handler class."""
 
     def __init__(self, second, raise_error=False):
-        """Initialize IOTimeOut class.
+        """Initialize CMTimeOut class.
 
         :param second: timeout second
         :type second: int
@@ -36,7 +36,7 @@ class IOTimeOut:
         :param tracebacak: traceback object
         :type traceback: object
         """
-        if exception_class is IOTimeOutException:
+        if exception_class is CMTimeOutException:
             if not self._raise_error:
                 return True
             return False
@@ -61,4 +61,4 @@ class IOTimeOut:
         :return: None
         :rtype: None
         """
-        raise IOTimeOutException("IO timeout exceeded.")
+        raise CMTimeOutException("ContextManager timeout exceeded.")
