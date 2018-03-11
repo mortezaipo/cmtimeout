@@ -30,9 +30,9 @@ class CMTimeOut:
         """Context manager exit action.
 
         :param exception_class: main exception class
-        :type exception_class: IOTimeOutException
+        :type exception_class: CMTimeOutException
         :param exception_raised: raised exception
-        :type exception_raised: IOTimeOutException
+        :type exception_raised: CMTimeOutException
         :param tracebacak: traceback object
         :type traceback: object
         """
