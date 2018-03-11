@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cmtimeout",
-    version="1.0.1",
+    version="1.0.2",
     description="Python ContextManager timeout handler library.",
     long_description=open("README.rst").read(),
     author="Morteza Nourelahi Alamdari",

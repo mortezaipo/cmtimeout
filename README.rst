@@ -19,6 +19,18 @@ Example 1:
 .. code-block:: python
 
     from cmtimeout import CMTimeOut
+    import time
+
+    with CMTimeOut(2):
+        time.sleep(3)
+        print("this print never work!")
+
+
+Example 1:
+
+.. code-block:: python
+
+    from cmtimeout import CMTimeOut
 
     with CMTimeOut(2):
         with open("interface.fifo", "w") as f:
@@ -37,6 +49,10 @@ Example 2:
                 pass
     except CMTimeOutException:
         print("opening file failed.")
+
+
+**NOTE:** first argument (second) must be ``int``.
+**NOTE:** second argument enables rasing exception which timeout exceeded.
 
 
 Contribute
